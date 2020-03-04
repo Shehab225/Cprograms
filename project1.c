@@ -1,6 +1,6 @@
 #include<stdio.h>
 //this program transfer Measurements are provided to your program in meters, grams or degrees Celsius and must be converted to feet, pounds and degrees Fahrenheit, respectively.
-void meter(double); //prototype for function ,that telling compiler the deinition for function is coming...
+void meter(double); //prototype for function  ,that telling compiler the deinition for function is coming...
 void gram(double);
 void temperature(double);
  int main(){
