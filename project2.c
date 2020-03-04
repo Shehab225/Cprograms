@@ -1,6 +1,6 @@
-#include <stdio.h>//
+#include <stdio.h>
 
-int min(int, int);
+int min(int, int);// prototype for function,..that telling compilier: the definition of function is coming,.. 
 
 int main(void) {
 	int i;
@@ -13,14 +13,14 @@ int main(void) {
 
 	for (i = 1; i < num; i++) {
 		scanf("%d", &a);
-		minimum = min(minimum, a);
+		minimum = min(minimum, a); //calling function,..
 	}
 	printf("%d\n", minimum);
 
 	return 0;
 }
 
-int min(int a, int b) {
+int min(int a, int b) { //definition for function,..
     if (a < b){
 	return a;
     }else{
