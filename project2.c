@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int min(int, int);// prototype for function,..that telling compilier: the definition of function is coming,.. 
+int min(int, int);// prototype for function,..that telling compilier: the definition of function is coming,.
 
 int main(void) {
 	int i;
