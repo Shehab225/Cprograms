@@ -25,3 +25,9 @@ int fibonacci(int n) { // definition my function,..
         return (fibonacci(n-1) + fibonacci(n-2)); 
     }
 }
+
+/* you can use this syntax to show n of fibonacci
+ for(i=0 ; i<n ; i++){
+        facto = factorial(i);
+        printf(" %d" , facto);
+    }  */
