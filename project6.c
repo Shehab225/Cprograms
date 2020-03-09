@@ -20,7 +20,7 @@ int main(void){
         }else if(c == 'd'){
             sum = sum + doubl(n);
         }else{
-            printf("Invalid tracking code type ");// If the user enters an incorrect type for any tracking number,..
+            printf("Invalid tracking code type ");// If the user enters an incorrect type for any tracking number,.
 
             return 0;
         }
