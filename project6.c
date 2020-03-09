@@ -7,7 +7,7 @@ int doubl(int );
 int main(void){
     int num=0; //num of variables that i will use,..
     int i;
-    int sum=0;
+    int sum=0; //sum of bytes that i will take from memory
     char c;
     int n;
     scanf("%d",&num);
